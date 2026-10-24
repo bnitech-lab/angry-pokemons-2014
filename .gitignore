@@ -1,0 +1,40 @@
+# Eclipse ADT build output
+bin/
+gen/
+out/
+
+# Eclipse workspace files
+.classpath
+.project
+.settings/
+.metadata/
+
+# Android Studio / Gradle, if the project is ported
+.gradle/
+build/
+.idea/
+*.iml
+local.properties
+
+# Packaged apps, compiled code, signing keys
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.jks
+*.keystore
+
+# Bundled third-party libraries (see README)
+libs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Art and music were removed on purpose (see README); keep them out
+res/drawable*/
+res/raw/
+*.png
+*.jpg
+*.mp3
